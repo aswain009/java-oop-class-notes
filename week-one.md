@@ -36,7 +36,12 @@ vehicle
     - you can call the superclass's constructor from the subclass with `super();`
     - parent methods and properties need to be `public` for them to be accessible in subclasses
 
-### overload vs. override
+### override vs. overload
+- `@Override`
+    - tells the compiler that the name and signature of the tagged method is the same as one in the superclass
+    - when called by an instance of the subtype, the subtype version of the method will be run
+- `@Overload`
+    - 
 
 ### organize classes into an inheritance hierarchy
 
