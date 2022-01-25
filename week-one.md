@@ -3,7 +3,7 @@
     - a hierarchy of classes, each one defining a more specific subset of the parent class
 ```
 vehicle
-│   land-based
+└─── land-based
 │   └─── powered
 │       │   train
 │       │   car
