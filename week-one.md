@@ -52,4 +52,6 @@ vehicle
 ### late binding
 
 ### Liskov substitution principle, aka SOLID
-- what it states: anywhere where a type T can be used, an S can be used, where S is a subtype of T
+- what it states
+    - anywhere where a type T can be used, an S can be used, where S is a subtype of T
+    - doesn't necessarily work the other way around, the subtype S can have methods/properties not included in T, so using a T in place of an S can cause errors if something only in S is called on an instance of T
