@@ -1,6 +1,6 @@
 ### inheritance
 - what it is
-    - a hierarchy of classes, each one defining a more specific subset of the parent class
+    - a hierarchy of classes, each one defining a more specific subset of the parent class (or "superclass")
 ```
 vehicle
 └─── land-based
@@ -29,11 +29,11 @@ vehicle
     - if you're using if-elses over and over in your class, based on the "type" of the object
     - each type (subclass) has the same methods, but the logic inside of them is different
     - e.g., in the example design above, all the subclasses will have a method `move()` but they'll be implemented differently
-    - each subclass can have its own properties and methods (state and behavior), along with the methods/properties from the parent class
+    - each subclass can have its own properties and methods (state and behavior), along with the methods/properties from the superclass
 - how to use it
     - `public class Hourly extends Employee`
     - write a constructor for the subclass
-    - you can call the parent class's constructor from the subclass with `super();`
+    - you can call the superclass's constructor from the subclass with `super();`
     - parent methods and properties need to be `public` for them to be accessible in subclasses
 
 ### overload vs. override
@@ -47,3 +47,4 @@ vehicle
 ### late binding
 
 ### Liskov substitution principle, aka SOLID
+- what it states: anywhere where a type T can be used, an S can be used, where S is a subtype of T
