@@ -34,9 +34,10 @@ vehicle
     - `public class Hourly extends Employee`
     - write a constructor for the subclass
     - you can call the superclass's constructor from the subclass with `super();`
+    - you can call any public method from the subclass with `super.nameOfMethod()`
     - parent methods and properties need to be `public` for them to be accessible in subclasses
 
-### override vs. overload
+### override and overload
 - `@Override`
     - tells the compiler that the name and signature of the tagged method is the same as one in the superclass
     - when called by an instance of the subtype, the subtype version of the method will be run
