@@ -1,2 +1,3 @@
-# java-oop-class-notes
-notes from my Java-based OOP class
+# Java OOP class notes
+
+WEEK 1
