@@ -40,17 +40,21 @@ vehicle
 ### override and overload
 - `@Override`
     - tells the compiler that the name and signature of the tagged method is the same as one in the superclass
-    - when called by an instance of the subtype, the subtype/overriden version of the method will be run
+    - when called by an instance of the subtype, the subtype/overridden version of the method will be run
 - `@Overload`
-    - 
-
-### organize classes into an inheritance hierarchy
-
-### calling superclass methods
 
 ### polymorphism
+- what it means
+    - you can call the same methods and/or use the same logic with objects of different types
+    - a different method is called depending on the type of the object
 
 ### late binding
+
+### open-close principle
+- what it says
+    - a system can be extended but not modified
+    - e.g., you can add a subclass but you can't (or don't have to) to change the superclass
+    - the superclass is generic enough that you can build off of it without changing it
 
 ### Liskov substitution principle, aka SOLID
 - what it states
