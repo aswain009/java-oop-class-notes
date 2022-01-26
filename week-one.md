@@ -33,15 +33,21 @@ vehicle
 - how to use it
     - `public class Hourly extends Employee`
     - write a constructor for the subclass
-    - you can call the superclass's constructor from the subclass with `super();`
+    - you can call the superclass' constructor from the subclass with `super();`
     - you can call any public method from the subclass with `super.nameOfMethod()`
     - parent methods and properties need to be `public` for them to be accessible in subclasses
+- every class implicitly extends Java's base Object class
 
 ### override and overload
 - `@Override`
     - tells the compiler that the name and signature of the tagged method is the same as one in the superclass
     - when called by an instance of the subtype, the subtype/overridden version of the method will be run
+    - if a method in a superclass doesn't need an implementation, you can mark it `abstract`
+    - this forces any subclass to have to implement their own version of the method
+    - if a method is marked `abstract` then the class must also be marked `abstract`
 - `@Overload`
+    - within the same class, you can have multiple versions of the same method by tagging them with `@Overload`
+    - the return types and names must be the same, but the types, number and order of the parameters can be different
 
 ### polymorphism
 - what it means
