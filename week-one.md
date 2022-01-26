@@ -55,6 +55,8 @@ vehicle
     - a different method is called depending on the type of the object
 
 ### late binding
+- what it is
+    - 
 
 ### open-close principle
 - what it says
@@ -62,7 +64,13 @@ vehicle
     - e.g., you can add a subclass but you can't (or don't have to) to change the superclass
     - the superclass is generic enough that you can build off of it without changing it
 
-### Liskov substitution principle, aka SOLID
-- what it states
-    - anywhere where a type T can be used, an S can be used, where S is a subtype of T
-    - doesn't necessarily work the other way around, the subtype S can have methods/properties not included in T, so using a T in place of an S can cause errors if something only in S is called on an instance of T
+### Liskov substitution principle and SOLID
+- what SOLID stands for
+    - single responsibility principle: each class should represent one thing, each method should do only one thing, etc.
+    - open-closed principle: avoid changing existing and, instead, extend them
+    - Liskov substitution principle
+        - "... every derived class should be substitutable for its parent class." ([The Importance of SOLID Design Principles](https://www.bmc.com/blogs/solid-design-principles/))
+        - anywhere where a type T can be used, an S can be used, where S is a subtype of T
+        - doesn't necessarily work the other way around, the subtype S can have methods/properties not included in T, so using a T in place of an S can cause errors if something only in S is called on an instance of T
+    - interface segregation principle: it's better to have a lot of small interfaces rather than one big one, so split classes up as much as possible
+    - dependency inversion principle: the coupling between two classes should be as low as possible, one class doesn't have to know about or bother with the implementation of another class it's using
