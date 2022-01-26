@@ -40,7 +40,7 @@ vehicle
 ### override and overload
 - `@Override`
     - tells the compiler that the name and signature of the tagged method is the same as one in the superclass
-    - when called by an instance of the subtype, the subtype version of the method will be run
+    - when called by an instance of the subtype, the subtype/overriden version of the method will be run
 - `@Overload`
     - 
 
