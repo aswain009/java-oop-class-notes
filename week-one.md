@@ -54,6 +54,7 @@ vehicle
 - what it means
     - you can call the same methods and/or use the same logic with objects of different types
     - a different method is called depending on the type of the object
+- dynamic method lookup: an object gets its type checked before the correct override of a method is chosen and invoked; this happens dynamically, during runtime
 
 ### late binding
 - what it is
