@@ -17,7 +17,7 @@ vehicle
 │       │   yacht
 │       │   cruise ship
 │   └─── unpowered
-│       │   cannoue
+│       │   canoe
 │   
 └─── air-based
 │   └─── powered
