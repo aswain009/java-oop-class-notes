@@ -1,6 +1,7 @@
 ### inheritance
 - what it is
     - a hierarchy of classes, each one defining a more specific subset of the parent class (or "superclass")
+    - the subclass "is a" version of the superclass
 ```
 vehicle
 └─── land-based
