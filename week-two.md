@@ -10,7 +10,7 @@
 ### equals and toString methods for base, derived, and composed classes
 
 
-### open/closed, interface segregation, and dependency inversion principles (SOLID)
+### open-closed, interface segregation, and dependency inversion principles (SOLID)
 - open-closed
     - a system can be extended but should not be modified
     - e.g., you can add a subclass but you can't (or don't have to) change the superclass
