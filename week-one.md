@@ -71,6 +71,6 @@ vehicle
     - Liskov substitution principle
         - also the "substitution principle"
         - "... every derived class should be substitutable for its parent class." ([The Importance of SOLID Design Principles](https://www.bmc.com/blogs/solid-design-principles/))
-        - anywhere where a type T can be used, an S can be used, where S is a subtype of T; this is because the S "is a" T
+        - anywhere where a type T can be used, an S can be used, where S is a subtype of T; this is because the S _is a_ T
     - interface segregation principle: it's better to have a lot of small interfaces rather than one big one, so split classes up as much as possible
     - dependency inversion principle: the coupling between two classes should be as low as possible; one class doesn't have to know about or bother with the implementation of another class it's using
