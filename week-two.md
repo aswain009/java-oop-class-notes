@@ -35,6 +35,7 @@ x.equals(y); // returns false since a and b are pointing to different locations 
 ```
 - you can override `equals()` for your class and make it compare properties instead of literal equality
 ```
+@Override
 public boolean equals(Object object)
 {
     if (object != null && object instanceof Person)
