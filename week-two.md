@@ -34,6 +34,20 @@ Person b = new Person("tony");
 x.equals(y); // returns false since a and b are pointing to different locations in memory, two seperate objects that happen to have the same name property
 ```
 - you can override `equals()` for your class and make it compare properties instead of literal equality
+```
+public boolean equals(Object object)
+{
+    if (object != null && object instanceof Person)
+    {
+        Person incomingPerson = (Person)object; // because we know object is instanceof Person, we won't get an error when .name is checked below
+        return name == incomingPerson.name;
+    }
+    else
+    {
+        return false;
+    }
+}
+```
 
 
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
