@@ -82,4 +82,4 @@ public boolean equals(Object object)
     - changing how one of them works shouldn't break the other
 
 ### access modifiers
-[!access modifiers](https://github.com/ruthrootz/java-oop-class-notes/blob/main/access-modifiers.png)
+![access modifiers](https://github.com/ruthrootz/java-oop-class-notes/blob/main/access-modifiers.png)
