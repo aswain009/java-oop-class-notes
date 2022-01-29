@@ -13,23 +13,21 @@
     - if a subclass implements an interface, it must define each method listed in the interface
     - there are no properties defined in an interface
 - you can design a program to have an interface the then an abstract superclass that implements the interface, then subclasses that extend the abstract class
-    - let's say we have an interface Person, that describes what each Person type _has_ to be able to do
-    - then an abstract class (AbstractPerson) either implements each method from the interface _or_ marks it abstract to force the subclasses to implement them
-    - each subclass that extends AbstractPerson must implement any methods marked as abstract in AbstractPerson
+    - let's say we have an `interface Person`, that describes what each `Person` type _has_ to be able to do
+    - then an abstract class (`AbstractPerson`) either implements each method from the interface _or_ marks it abstract to force the subclasses to implement them
+    - each subclass that extends `AbstractPerson` must implement any methods marked as abstract in `AbstractPerson`
 
 ### implicit and explicit object conversion
 - implicit
     - objects of a subclass can be used anywhere that a superclass object can be used without having to be cast into the parent type
-    - if you have a Student object, it can be used anywhere a Person object is required (assuming Student extends/implements Person)
+    - if you have a `Student` object, it can be used anywhere a `Person` object is required (assuming `Student` extends/implements `Person`)
 - explicit
     - explicit conversion is when an object is cast into another type
-    - a Person object has to be cast with `(Student)personObject` if you want to use Student methods on it
-
-###  final, public, protected, and private
+    - a `Person` object has to be cast with `(Student)personObject` if you want to use `Student` methods on it
 
 
-### equals and toString methods for base, derived, and composed classes
-- the default `equals()` method in the Object class only returns true if the objects being compared are the exact same object
+### overriding equals method
+- the default `equals()` method in the `Object` class only returns true if the objects being compared are the exact same object
 ```
 Person x = new Person("tony");
 Person y = x;
@@ -59,6 +57,11 @@ public boolean equals(Object object)
     - you should check to see if the values are "close enough", since they could vary by tiny amounts
     - `Math.abs(oneValue - otherValue) < 1e-6`
 
+### base, derived, and composed classes
+- base classes
+- derived classes
+- composed classes
+
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
 - open-closed
     - a system can be extended but should not be modified
@@ -76,4 +79,7 @@ public boolean equals(Object object)
 - coupling: classes shouldn't depend on the details of another class, the classes should work independently; changing how one of them works shouldn't break the other
 
 ### access modifiers
+
+
+###  final, public, protected, and private
 
