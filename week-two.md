@@ -2,6 +2,7 @@
 - neither of these can be instantiated (you can't "new" them up)
     - you "extend" abstract classes, and then you can create objects from those subclasses
     - you "implement" interfaces, and then you can create objects from those subclasses
+- classes derived from interfaces or abstract classes are called "concrete classes"; these are classes that can be instantiated (i.e. you can create objects from it)
 - abstract classes
     - some/all of the methods can be marked with abstract
     - abstract methods aren't implemented (i.e., they don't have bodies) in the abstract class, but in the subclasses they _must_ be implemented
