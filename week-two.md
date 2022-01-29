@@ -81,9 +81,5 @@ public boolean equals(Object object)
     - classes shouldn't depend on the details of another class, the classes should work independently
     - changing how one of them works shouldn't break the other
 
-### access modifiers: private, public, protected and final
-- default:
-- private:
-- public:
-- protected:
-- final:
+### access modifiers
+[!access modifiers]()
