@@ -8,6 +8,7 @@
     - abstract methods aren't implemented (i.e., they don't have bodies) in the abstract class, but in the subclasses they _must_ be implemented
     - if a subclass doesn't have a constructor, then when you create a new subclass object, Java will run the superclass' constructor
 - interfaces
+    - an interface defines how we interact with the object (tells us what the object can do, what its methods should be)
     - none of the methods in an interface are implemented, the interface only lists the signatures of the methods (name, return type, parameters)
     - if a subclass implements an interface, it must define each method listed in the interface
     - there are no properties defined in an interface
@@ -49,7 +50,10 @@ public boolean equals(Object object)
     }
 }
 ```
-
+- don't forget you can use `super.equals(incomingObject)` to use the superclass' `equals()` inside your subclass' `equals()` to minimize code duplication!
+- `equals()` for doubles and floats
+    - you should check to see if the values are "close enough", since they could vary by tiny amounts
+    - `Math.abs(oneValue - otherValue) < 1e-6`
 
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
 - open-closed
@@ -59,7 +63,13 @@ public boolean equals(Object object)
 - interface segregation
     - it's better to have a lot of small interfaces rather than one big one, so split classes up as much as possible
 - dependency inversion
-    - the coupling between two classes should be as low as possible, one class doesn't have to know about or bother with the implementation of another class it's using
+    - high-level modules shouldn't depend on low-level modules, they shouldn't have to know what's going on in them
+    - another way to put it, the coupling between two classes should be as low as possible, one class doesn't have to know about or bother with the implementation of another class it's using
+
+### cohesion and coupling
+- the goal: classes should have strong cohesion, weak coupling
+- cohesion: each class should do only one things
+- coupling: classes shouldn't depend on the details of another class, the classes should work independently; changing how one of them works shouldn't break the other
 
 ### access modifiers
 
