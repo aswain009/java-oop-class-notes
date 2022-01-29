@@ -33,6 +33,7 @@ Person a = new Person("tony");
 Person b = new Person("tony");
 x.equals(y); // returns false since a and b are pointing to different locations in memory, two seperate objects that happen to have the same name property
 ```
+- you can override `equals()` for your class and make it compare properties instead of literal equality
 
 
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
