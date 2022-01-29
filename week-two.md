@@ -12,10 +12,10 @@
     - none of the methods in an interface are implemented, the interface only lists the signatures of the methods (name, return type, parameters)
     - if a subclass implements an interface, it must define each method listed in the interface
     - there are no properties defined in an interface
-- you can design a program to have an interface the then an abstract superclass that implements the interface, then subclasses that extend the anstract class
+- you can design a program to have an interface the then an abstract superclass that implements the interface, then subclasses that extend the abstract class
     - let's say we have an interface Person, that describes what each Person type _has_ to be able to do
     - then an abstract class (AbstractPerson) either implements each method from the interface _or_ marks it abstract to force the subclasses to implement them
-    - each subclass that extends AbstractPerson must implement any methods marked as abtract in AbstractPerson
+    - each subclass that extends AbstractPerson must implement any methods marked as abstract in AbstractPerson
 
 ### implicit and explicit object conversion
 - implicit
@@ -72,7 +72,7 @@ public boolean equals(Object object)
 
 ### cohesion and coupling
 - the goal: classes should have strong cohesion, weak coupling
-- cohesion: each class should do only one things
+- cohesion: each class should do only one thing
 - coupling: classes shouldn't depend on the details of another class, the classes should work independently; changing how one of them works shouldn't break the other
 
 ### access modifiers
