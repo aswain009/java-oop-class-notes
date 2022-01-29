@@ -56,15 +56,17 @@ public boolean equals(Object object)
     - you should check to see if the values are "close enough", since they could vary by tiny amounts
     - `Math.abs(oneValue - otherValue) < 1e-6`
 
-### concrete, base, derived, and composed classes
+### types of classes
 - concrete: a class that can be instantiated (you can "new" it up)
 - base:
 - derived:
-- composed:
 - final:
 - static:
 - abstract:
 - (interfaces aren't classes, they're more like blueprints for classes)
+
+### composition
+
 
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
 - open-closed
