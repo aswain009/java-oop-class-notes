@@ -10,6 +10,8 @@
     - if a subclass doesn't have a constructor, then when you create a new subclass object, Java will run the superclass' constructor
 - interfaces
     - none of the methods in an interface are implemented, the interface only lists the signatures of the methods (name, return type, parameters)
+    - if a subclass implements an interface, it must define each method listed in the interface
+    - there are no properties defined in an interface
 
 ### implicit and explicit object conversion
 
