@@ -41,7 +41,7 @@ public boolean equals(Object object)
     if (object != null && object instanceof Person)
     {
         Person incomingPerson = (Person)object; // because we know object is instanceof Person, we won't get an error when .name is checked below
-        return name == incomingPerson.name;
+        return name.equals(incomingPerson.name); // equals() on a string directly compares the strings themselves
     }
     else
     {
