@@ -25,7 +25,6 @@
     - explicit conversion is when an object is cast into another type
     - a `Person` object has to be cast with `(Student)personObject` if you want to use `Student` methods on it
 
-
 ### overriding equals method
 - the default `equals()` method in the `Object` class only returns true if the objects being compared are the exact same object
 ```
