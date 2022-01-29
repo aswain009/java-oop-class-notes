@@ -57,10 +57,11 @@ public boolean equals(Object object)
     - you should check to see if the values are "close enough", since they could vary by tiny amounts
     - `Math.abs(oneValue - otherValue) < 1e-6`
 
-### base, derived, and composed classes
-- base classes
-- derived classes
-- composed classes
+### concrete, base, derived, and composed classes
+- concrete class: a class that can be instantiated (you can "new" it up)
+- base class:
+- derived class:
+- composed class:
 
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
 - open-closed
@@ -76,10 +77,14 @@ public boolean equals(Object object)
 ### cohesion and coupling
 - the goal: classes should have strong cohesion, weak coupling
 - cohesion: each class should do only one thing
-- coupling: classes shouldn't depend on the details of another class, the classes should work independently; changing how one of them works shouldn't break the other
+- coupling
+    - you should have one place to define, abstractly, what a thing should do (with and interface) and one place where those methods are actually defined (in a concrete class)
+    - classes shouldn't depend on the details of another class, the classes should work independently
+    - changing how one of them works shouldn't break the other
 
-### access modifiers
-
-
-###  final, public, protected, and private
-
+### access modifiers: private, public, protected and final
+- default:
+- private:
+- public:
+- protected:
+- final:
