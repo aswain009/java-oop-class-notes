@@ -8,10 +8,14 @@
     - abstract methods aren't implemented (i.e., they don't have bodies) in the abstract class, but in the subclasses they _must_ be implemented
     - if a subclass doesn't have a constructor, then when you create a new subclass object, Java will run the superclass' constructor
 - interfaces
-    - an interface defines how we interact with the object (tells us what the object can do, what its methods should be)
+    - an interface defines how we interact with the object (what the object can do)
     - none of the methods in an interface are implemented, the interface only lists the signatures of the methods (name, return type, parameters)
     - if a subclass implements an interface, it must define each method listed in the interface
     - there are no properties defined in an interface
+- you can design a program to have an interface the then an abstract superclass that implements the interface, then subclasses that extend the anstract class
+    - let's say we have an interface Person, that describes what each Person type _has_ to be able to do
+    - then an abstract class (AbstractPerson) either implements each method from the interface _or_ marks it abstract to force the subclasses to implement them
+    - each subclass that extends AbstractPerson must implement any methods marked as abtract in AbstractPerson
 
 ### implicit and explicit object conversion
 - implicit
