@@ -1,3 +1,9 @@
+### abstract classes vs interfaces
+- abstract classes
+    - 
+- interfaces
+    - 
+
 ### implicit and explicit object conversion
 
 
