@@ -1,8 +1,15 @@
 ### abstract classes vs interfaces
+- neither of these can be instantiated (you can't "new" them up)
+    - you "extend" abstract classes, and then you can create objects from those subclasses
+    - you "implement" interfaces, and then you can create objects from those subclasses
 - abstract classes
-    - 
+    - some/all of the methods can be marked with abstract
+    - abstract methods aren't defined in the abstract class but in the subclasses that inherit the class
+    - the abstract class can have fully implemented methods (i.e. methods with bodies) as well as properties
+    - abstract classes can have a constructor and the constructor can be called with `super()` in subclasses
+    - if a subclass doesn't have a constructor, then when you create a new subclass object, Java will run the superclass' constructor
 - interfaces
-    - 
+    - none of the methods in an interface are implemented, the interface only lists the signatures of the methods (name, return type, parameters)
 
 ### implicit and explicit object conversion
 
