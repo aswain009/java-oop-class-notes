@@ -4,9 +4,8 @@
     - you "implement" interfaces, and then you can create objects from those subclasses
 - abstract classes
     - some/all of the methods can be marked with abstract
-    - abstract methods aren't implemented (i.e., they don't have bodies) in the abstract class, but in the subclasses that inherit the class they _must_ be implemented
+    - abstract methods aren't implemented (i.e., they don't have bodies) in the abstract class, but in the subclasses they _must_ be implemented
     - the abstract class can have implemented methods, abstract methods and properties
-    - abstract classes can have a constructor and the constructor can be called with `super()` in subclasses
     - if a subclass doesn't have a constructor, then when you create a new subclass object, Java will run the superclass' constructor
 - interfaces
     - none of the methods in an interface are implemented, the interface only lists the signatures of the methods (name, return type, parameters)
