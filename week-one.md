@@ -59,7 +59,11 @@ vehicle
 
 ### late binding
 - what it is
-    - **???**
+    -  Late binding means that the compiler should perform no argument checks,
+       no type checks on a method call and should leave it all to the runtime.
+       This is the inherent functionality of Java for implementing polymorphism
+       and overriding methods.
+       Reference [here](https://stackoverflow.com/questions/22391915/late-binding-in-java)
 
 ### Liskov substitution principle and SOLID
 - what SOLID stands for
