@@ -1,4 +1,5 @@
 ### abstract classes vs interfaces
+- classes and abstract classes define what an object _is_; an interface defines what an object can _do_
 - neither of these can be instantiated (you can't "new" them up)
     - you "extend" abstract classes, and then you can create objects from those subclasses
     - you "implement" interfaces, and then you can create objects from those subclasses
