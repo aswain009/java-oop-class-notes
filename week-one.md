@@ -58,8 +58,7 @@ vehicle
     - this happens dynamically, during runtime
 
 ## late binding
-- what it is
-    - **???**
+- **???**
 
 ## Liskov substitution principle and SOLID
 - what SOLID stands for
