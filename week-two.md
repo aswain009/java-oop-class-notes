@@ -74,7 +74,8 @@ public boolean equals(Object object)
 - if inheritance makes "is a" relationships, then composition makes "has a" relationships
 
 ### callback methods
-- **???**
+- you can pass a method into another method and call the first method inside the second
+![callback pattern](https://github.com/ruthrootz/java-oop-class-notes/blob/main/callback-methods.png)
 
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
 - open-closed
