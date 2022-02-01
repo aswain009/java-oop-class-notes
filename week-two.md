@@ -3,6 +3,7 @@
 - neither of these can be instantiated (you can't "new" them up)
     - you "extend" abstract classes, and then you can create objects from those subclasses
     - you "implement" interfaces, and then you can create objects from those subclasses
+    - **but** you can assign an object that implements, say, the Measurable interface to a variable of type Measurable; you can't instantiate a Measurable, but you can use it as a variable type
 - classes derived from interfaces or abstract classes are called "concrete classes"; these are classes that can be instantiated (i.e. you can create objects from them)
 - abstract classes
     - abstract classes can have implemented methods, abstract methods and properties
