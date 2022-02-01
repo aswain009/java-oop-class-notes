@@ -1,4 +1,4 @@
-### abstract classes vs interfaces
+## abstract classes vs interfaces
 - classes and abstract classes define what an object _is_; an interface defines what an object can _do_
 - neither of these can be instantiated (you can't "new" them up)
     - you "extend" abstract classes, and then you can create objects from those subclasses
@@ -20,7 +20,7 @@
     - then an abstract class (`AbstractPerson`) either implements each method from the interface _or_ marks it abstract to force the subclasses to implement them
     - each subclass that extends `AbstractPerson` must implement any methods marked as abstract in `AbstractPerson`
 
-### implicit and explicit object conversion
+## implicit and explicit object conversion
 - implicit
     - objects of a subclass can be used anywhere that a superclass object can be used without having to be cast into the parent type
     - if you have a `Student` object, it can be used anywhere a `Person` object is required (assuming `Student` extends/implements `Person`)
@@ -28,7 +28,7 @@
     - explicit conversion is when an object is cast into another type
     - a `Person` object has to be cast with `(Student)personObject` if you want to use `Student` methods on it
 
-### overriding equals method
+## overriding equals method
 - the default `equals()` method in the `Object` class only returns true if the objects being compared are the exact same object
 ```
 Person x = new Person("tony");
@@ -59,7 +59,7 @@ public boolean equals(Object object)
     - you should check to see if the values are "close enough", since they could vary by tiny amounts
     - `Math.abs(oneValue - otherValue) < 1e-6`
 
-### types of classes
+## types of classes
 - concrete: a regular class; it can be instantiated (you can "new" it up)
 - base: a parent class, a class that another class extends
 - derived: a child class, a class that extends another class
@@ -68,16 +68,16 @@ public boolean equals(Object object)
 - final: creates an immutable class; values remain the same throughout the program; cannot be extended/subclassed; final methods cannot be overridden; final variables can only be assigned once
 - (interfaces aren't classes, they're more like blueprints for classes)
 
-### composition
+## composition
 - composition is when an object contains another object
 - the contained object cannot exist outside of the container class
 - if inheritance makes "is a" relationships, then composition makes "has a" relationships
 
-### callback methods
-- you can pass a method into another method and call the first method inside the second
+## callback methods
 ![callback pattern](https://github.com/ruthrootz/java-oop-class-notes/blob/main/callback-methods.png)
+- you can pass a method into another method and call the first method inside the second
 
-### open-closed, interface segregation, and dependency inversion principles (SOLID)
+## open-closed, interface segregation, and dependency inversion principles (SOLID)
 - open-closed
     - a system can be extended but should not be modified
     - e.g., you can add a subclass but you can't (or don't have to) change the superclass
@@ -89,7 +89,7 @@ public boolean equals(Object object)
     - another way to put it, the coupling between two classes should be as low as possible, one class doesn't have to know about or bother with the implementation of another class it's using
     - changing one of the classes shouldn't change how the other class (the dependent class) uses it
 
-### cohesion and coupling
+## cohesion and coupling
 - the goal: classes should have strong cohesion, weak coupling
 - cohesion: each class should do only one thing
 - coupling
@@ -97,5 +97,5 @@ public boolean equals(Object object)
     - classes shouldn't depend on the details of another class, the classes should work independently
     - changing how one of them works shouldn't break the other
 
-### access modifiers
+## access modifiers
 ![access modifiers](https://github.com/ruthrootz/java-oop-class-notes/blob/main/access-modifiers.png)

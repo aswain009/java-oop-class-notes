@@ -1,4 +1,4 @@
-### inheritance
+## inheritance
 - what it is
     - a hierarchy of classes, each one defining a more specific subset of the parent class (or "superclass")
     - the subclass "is a" version of the superclass
@@ -38,7 +38,7 @@ vehicle
     - parent methods and properties need to be `public` for them to be accessible in subclasses (or by actual instances of the subclass)
 - every class implicitly extends Java's base Object class; Object is the parent class of all classes
 
-### override and overload
+## override and overload
 - override (decorator: `@Override`)
     - you're "overriding" when you make a method with the same name and signature of a method in the superclass
     - when called by an instance of the subtype, the subtype/overridden version of the method will be run
@@ -49,7 +49,7 @@ vehicle
     - within the same class, you can have multiple versions of the same method
     - the return types and names must be the same, but the types, number and order of the parameters can be different
 
-### polymorphism
+## polymorphism
 - what it means
     - you can call the same methods and/or use the same logic with objects of different types
     - a different method is called depending on the type of the object
@@ -57,11 +57,11 @@ vehicle
     - an object gets its type checked and then the correct override of a method is chosen and invoked
     - this happens dynamically, during runtime
 
-### late binding
+## late binding
 - what it is
     - **???**
 
-### Liskov substitution principle and SOLID
+## Liskov substitution principle and SOLID
 - what SOLID stands for
     - single responsibility principle: each class should represent one thing, each method should do only one thing, etc.
     - open-closed principle
