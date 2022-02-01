@@ -3,11 +3,11 @@
 - neither of these can be instantiated (you can't "new" them up)
     - you "extend" abstract classes, and then you can create objects from those subclasses
     - you "implement" interfaces, and then you can create objects from those subclasses
-    - **but** you can assign an object that implements, say, the Measurable interface to a variable of type Measurable; you can't instantiate a Measurable, but you can use it as a variable type
+        - **but** you can assign an object that implements, say, the Measurable interface to a variable of type Measurable; you can't instantiate a Measurable, but you can use it as a variable type
 - classes derived from interfaces or abstract classes are called "concrete classes"; these are classes that can be instantiated (i.e. you can create objects from them)
 - abstract classes
     - abstract classes can have implemented methods, abstract methods and properties
-    - abstract methods aren't implemented (i.e., they don't have bodies) in the abstract class, but in the subclasses they _must_ be implemented
+    - abstract methods aren't implemented (i.e., they don't have bodies) in the abstract class, but they _must_ be implemented in the subclasses
     - if a subclass doesn't have a constructor, then when you create a new subclass object, Java will run the superclass' constructor
 - interfaces
     - an interface defines how we interact with the object (what the object can do)
@@ -69,6 +69,9 @@ public boolean equals(Object object)
 - (interfaces aren't classes, they're more like blueprints for classes)
 
 ### composition
+- **???**
+
+### callback methods
 - **???**
 
 ### open-closed, interface segregation, and dependency inversion principles (SOLID)
