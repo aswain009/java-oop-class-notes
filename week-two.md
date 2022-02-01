@@ -80,6 +80,7 @@ public boolean equals(Object object)
 - dependency inversion
     - high-level modules shouldn't depend on low-level modules, they shouldn't have to know what's going on in them
     - another way to put it, the coupling between two classes should be as low as possible, one class doesn't have to know about or bother with the implementation of another class it's using
+    - changing one of the classes shouldn't change how the other class (the dependent class) uses it
 
 ### cohesion and coupling
 - the goal: classes should have strong cohesion, weak coupling
