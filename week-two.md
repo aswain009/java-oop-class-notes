@@ -65,7 +65,7 @@ public boolean equals(Object object)
 - derived: a child class, a class that extends another class
 - abstract: a class that has one or more abstract methods in it
 - static: you can't create an object from a static class; you use a member defined in a static class with `ClassName.MethodName()/PropertyName`; 
-- final: creates an immutable class; values remain the same throughout the program; cannot be extended/subclassed
+- final: creates an immutable class; values remain the same throughout the program; cannot be extended/subclassed; final methods cannot be overriden; final variables can only be assigned once
 - (interfaces aren't classes, they're more like blueprints for classes)
 
 ### composition
