@@ -12,6 +12,7 @@
     - none of the methods in an interface are implemented, the interface only lists the signatures of the methods (name, return type, parameters)
     - if a subclass implements an interface, it must define each method listed in the interface
     - there are no properties defined in an interface
+- a class can `extend` only one class, but it can `implement` as many interfaces as needed
 - you can design a program to have an interface the then an abstract superclass that implements the interface, then subclasses that extend the abstract class
     - let's say we have an `interface Person`, that describes what each `Person` type _has_ to be able to do
     - then an abstract class (`AbstractPerson`) either implements each method from the interface _or_ marks it abstract to force the subclasses to implement them
