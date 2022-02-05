@@ -58,7 +58,13 @@ vehicle
     - this happens dynamically, during runtime
 
 ## late binding
-- **???**
+- this is when ther JVM determines the type of an object during runtime
+    - say you have an interface `Comparable` and classes `Blanket` and `Lightbulb` that implement it
+    - `Comparable` defines a method `compareTo()` that is obviously written differently in each subclass
+    - lastly, you have a class that uses `Comparable` objects and calls `compareTo()` in one of its methods
+    - this method takes in type `Comparable`
+    - the exact type of the object (and its specific version of `compareTo()` to call) is determined during runtime by the JVM
+- early binding is when the type of an object is determined during compile time
 
 ## Liskov substitution principle and SOLID
 - what SOLID stands for
