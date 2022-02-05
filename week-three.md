@@ -21,4 +21,5 @@
 - this doesn't break old classes and allows us to add multiple types of flying (e.g., can fly, can't fly, can flap, can fly when it reaches a certain age, etc.)
 
 ## Explain how interfaces reduce coupling while increasing code reuse.
-
+- interfaces reduce coupling and code duplication by allowing all classes that implement the same interface to be used by the same methods
+- instead of writing a different method for each class, you can write one that takes in arguments of the interface type
