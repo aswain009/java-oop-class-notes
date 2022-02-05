@@ -14,9 +14,10 @@
 - use strategy pattern
     - create an interface `Flies` with `flies()`
     - create two classes that implement `Flies`, one called `CanFly` and one called `CantFly`
-    - add an instance of `Fly` to `Animal`
-    - then write a method `tryToFly()` that calls `fly()` on the instance we created in the last step
+    - add an instance of `Fly` called `flyingType` to `Animal`
+    - then write a method `tryToFly()` that calls `flyingType.fly()`
     - you can also add `setFlyingAbility()` to `Animal` so you can change the flying type for each animal
+    - all the subclasses of `Animal`, you can now set `flyingType` to an instance of whichever `Flies` subclass is appropriate
 - this doesn't break old classes and allows us to add multiple types of flying (e.g., can fly, can't fly, can flap, can fly when it reaches a certain age, etc.)
 
 ## Explain how interfaces reduce coupling while increasing code reuse.
