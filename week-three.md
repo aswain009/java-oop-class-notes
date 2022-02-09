@@ -1,3 +1,8 @@
+## example of interface vs. abstract
+- "sortable" would be an interface because it describes the abilities/behaviors that a sortable object must have (e.g., a method called sort())
+- "shape" would probably be an abstract class because shapes are objects in themselves that all share certain methods AND properties (e.g., numberOfSides, calculateArea(), etc.)
+- abstract classes can have properties, while interfaces can't
+
 ## Explain what design patterns are and how they are used.
 - design patterns are "common solutions to common problems"
 - they're tried-and-true ways to organize classes and behaviors
