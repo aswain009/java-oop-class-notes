@@ -11,14 +11,24 @@
 - `try` blocks wrap code that _might_ throw an exception
 - you can then `catch` exceptions in the catch block
 - a caught exception doesn't terminate the program
+- you can chain `catch` blocks to catch specific exception types
+- the `finally` block always runs, whether an exception was thrown or not
 ```
 try
 {
     var result = methodThatMightThrowException();
 }
-catch (ExceptionType e)
+catch (SomeExceptionType e)
 {
     // handle error here
+}
+catch (RuntimeException e)
+{
+    // handle error here
+}
+finally
+{
+    // this code will run no matter what
 }
 ```
 
