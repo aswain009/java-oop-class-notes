@@ -1,11 +1,19 @@
 ## Explain the purpose and use of exception handling for error detection and correction.
 - exception handling is used when the point at which an exception occurs is different from the point at which that error can or could have been corrected
 - uncaught exceptions terminate the program
+- the place where an exception is thrown is always different than the place it gets caught
+    - because you can't or don't want to fix the error in the same place where it happened
 
 ## Differentiate between checked and unchecked exceptions.
-- unchecked exceptions are exceptions that are due to programmer error
+- unchecked exceptions are exceptions that happen during runtime
+    - unchecked exceptions are subclasses of `RuntimeException`
+    - they happen due to programmer error
     - the programmer can write code to avoid these exceptions
 - checked exceptions are exceptions that are explicitly thrown in the code
+    - checked exceptions are subclasses of `Exception`
+    - they account for things that happen that are outside of the programmer's control
+    - all checked exceptions must be caught or delcared to be thrown
+        - 
 
 ## Use the keywords throws, try, throw, catch, and finally to implement exception handling.
 - `throw` indicates you've found an error, something that you can't fix
