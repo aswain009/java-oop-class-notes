@@ -25,7 +25,7 @@
 - you can chain `catch` blocks to catch specific exception types
     - when chaining, you have to put the catch blocks in order of most to least specific exception types
     - e.g., put `IOException` after `FileNotFoundException` because `FileNotFoundException` is a subclass of `IOException`
-        - if you caught them in the other order, `IOException` first, all `IOExceptions` _and_ `FileNotFoundExceptions` would be caught by the fist block (`IOException`), since `FileNotFoundException` _is an_ `IOException`
+        - if you caught them in the other order, `IOException` first, all `IOExceptions` _and_ `FileNotFoundExceptions` would be caught by the first block (`IOException`), since `FileNotFoundException` _is an_ `IOException`
 - the `finally` block always runs, whether an exception was thrown or not
 ```
 try
