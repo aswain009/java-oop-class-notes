@@ -23,6 +23,9 @@
 - you can then `catch` exceptions in the catch block
 - a caught exception doesn't terminate the program
 - you can chain `catch` blocks to catch specific exception types
+    - when chaining, you have to put the catch blocks in order of most to least specific exception types
+    - e.g., put `IOException` after `FileNotFoundException` because `FileNotFoundException` is a subclass of `IOException`
+        - if you caught them in the other order, `IOException` first, all `IOExceptions` _and_ `FileNotFoundExceptions` would be caught by the fist block (`IOException`), since `FileNotFoundException` _is an_ `IOException`
 - the `finally` block always runs, whether an exception was thrown or not
 ```
 try
@@ -46,8 +49,12 @@ finally
 ## Define and use a domain-specific exception hierarchy.
 - **???**
 
-Read and write text files.
-Read and write binary files.
-Read and write serialized object files.
-Define and explain the Serializable interface
-Distinguish between random and sequential access files.
+## Read and write text files.
+```
+
+```
+
+## Read and write binary files.
+## Read and write serialized object files.
+## Define and explain the Serializable interface
+## Distinguish between random and sequential access files.
