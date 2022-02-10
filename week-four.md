@@ -1,7 +1,12 @@
-Explain the purpose and use of exception handling for error detection and correction.
-Differentiate between checked and unchecked exceptions.
-Use the keywords throws, try, throw, catch, and finally to implement exception handling.
-Define and use a domain-specific exception hierarchy.
+## Explain the purpose and use of exception handling for error detection and correction.
+- exception handling is used when the point at which an exception occurs is different from the point at which that error can or could have been corrected
+## Differentiate between checked and unchecked exceptions.
+- checked exceptions are exceptions that are explicitly thrown in the code
+- unchecked exceptions are 
+
+## Use the keywords throws, try, throw, catch, and finally to implement exception handling.
+
+## Define and use a domain-specific exception hierarchy.
 
 Read and write text files.
 Read and write binary files.
