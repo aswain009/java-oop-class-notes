@@ -12,7 +12,7 @@
 - checked exceptions are exceptions that are explicitly thrown in the code
     - checked exceptions are subclasses of `Exception`
     - they account for things that happen that are outside of the programmer's control
-    - all checked exceptions must be caught or delcared to be thrown
+    - all checked exceptions must be caught or declared to be thrown
         - `throws` is used to show that a method throws checked exceptions
         - `public void someMethod() throws FileNotFoundException, SomeOtherCheckedException`
         - wherever the function is called, it has to either be in a method that is marked with `throws` or it has to catch the exception/s
