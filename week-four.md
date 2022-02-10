@@ -4,7 +4,8 @@
 
 ## Differentiate between checked and unchecked exceptions.
 - checked exceptions are exceptions that are explicitly thrown in the code
-- unchecked exceptions are 
+- unchecked exceptions are exceptions that are due to programmer error
+    - thr programmer can write code to avoid these exceptions
 
 ## Use the keywords throws, try, throw, catch, and finally to implement exception handling.
 - `throw` indicates you've found an error, something that you can't fix
@@ -31,6 +32,7 @@ finally
     // this code will run no matter what
 }
 ```
+- `throws`
 
 ## Define and use a domain-specific exception hierarchy.
 
