@@ -42,9 +42,9 @@ finally
     // this code will run no matter what
 }
 ```
-- `throws`
 
 ## Define and use a domain-specific exception hierarchy.
+- **???**
 
 Read and write text files.
 Read and write binary files.
