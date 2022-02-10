@@ -55,6 +55,10 @@ finally
 ```
 
 ## Read and write binary files.
+```
+
+```
+
 ## Read and write serialized object files.
 ## Define and explain the Serializable interface
 ## Distinguish between random and sequential access files.
