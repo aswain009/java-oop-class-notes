@@ -49,12 +49,15 @@ finally
 ## Define and use a domain-specific exception hierarchy.
 - **???**
 
-## Read and write text files.
-```
-
-```
-
 ## Read and write binary files.
+```
+
+```
+
+## Read and write text files.
+- line endings in Unix- vs. Windows-based machines
+    - Windows machines end lines with `\r\n`
+    - Unix-based machines end lines with just `\n`
 ```
 
 ```
