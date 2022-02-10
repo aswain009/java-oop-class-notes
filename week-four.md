@@ -15,6 +15,7 @@
     - all checked exceptions must be caught or delcared to be thrown
         - `throws` is used to show that a method throws checked exceptions
         - `public void someMethod() throws FileNotFoundException, SomeOtherCheckedException`
+        - wherever the function is called, it has to either be in a method that is marked with `throws` or it has to catch the exception/s
 
 ## Use the keywords throws, try, throw, catch, and finally to implement exception handling.
 - `throw` indicates you've found an error, something that you can't fix
