@@ -42,7 +42,9 @@
 
 
 ## Use UML class diagrams to illustrate relationships between classes.
-
+- identify classes by finiding the nouns in the requirements analysis
+- identify methods by finding the verbs
+- identify interfaces by looking for adjectives (?)
 
 ## Use primitive operation counts and deductive reasoning to determine the efficiency of algorithms.
 
