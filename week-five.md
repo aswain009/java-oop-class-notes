@@ -1,5 +1,6 @@
 ## Compare and contrast iterative versus sequential software lifecycle approaches.
-- waterfall model of SDLC
+- steps in SDLC: requirements analysis, development, testing, production, maintanance
+- waterfall model
     - phases
         - requirements analysis: what should the product do?
         - design
@@ -26,12 +27,16 @@
         - slow
         - not flexible
         - produces software that isn't actually what the user wants
-- spiral model
+- spiral (scrum, agile) model
     - uses short sprints
     - each sprint goes through all the steps of SDLC
     - adaptable to change
     - build products incrementally
     - gets user feedback regularly
+    - disadvantages
+        - complex process
+        - dificult to estimate
+        - not easy for project managers
 
 ## Use CRC cards to capture the responsibilities of each class and the relationships between classes.
 
