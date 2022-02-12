@@ -1,5 +1,5 @@
 ## Compare and contrast iterative versus sequential software lifecycle approaches.
-- steps in SDLC: requirements analysis, development, testing, production, maintanance
+- steps in SDLC: requirements analysis, development, testing, production, maintenance
 - waterfall model
     - phases
         - requirements analysis: what should the product do?
@@ -35,11 +35,11 @@
     - gets user feedback regularly
     - disadvantages
         - complex process
-        - dificult to estimate
+        - difficult to estimate
         - not easy for project managers
 
 ## Use UML class diagrams to illustrate relationships between classes.
-- identify classes by finiding the nouns in the requirements analysis
+- identify classes by finding the nouns in the requirements analysis
 - identify methods by finding the verbs
 - identify interfaces by looking for adjectives (?)
 
