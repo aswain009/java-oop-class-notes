@@ -38,13 +38,13 @@
         - dificult to estimate
         - not easy for project managers
 
-## Use CRC cards to capture the responsibilities of each class and the relationships between classes.
-
-
 ## Use UML class diagrams to illustrate relationships between classes.
 - identify classes by finiding the nouns in the requirements analysis
 - identify methods by finding the verbs
 - identify interfaces by looking for adjectives (?)
+
+## Use CRC cards to capture the responsibilities of each class and the relationships between classes.
+
 
 ## Use primitive operation counts and deductive reasoning to determine the efficiency of algorithms.
 
