@@ -8,4 +8,6 @@
 
 [WEEK FOUR](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-four.md)
 
-[WEEK FFIVEOUR](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-five.md)
+[WEEK FIVE](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-five.md)
+
+[WEEK SIX](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-six.md)
