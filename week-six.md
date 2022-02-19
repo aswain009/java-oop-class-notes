@@ -8,7 +8,8 @@
     - various data structures inherit `Collection`
     - its generic, so when you instantiate a collection you have to provide a type
     - collections don't guarantee order
-    - if you want to iterate over a collection, you have to create a class that implements `Iterator<whatever type your collection is of>`
+    - if you want to iterate over a collection, you have to create a class that implements `Iterator<T>`
         - you can then instantiate and use that iterator in your collection class to loop over your collections
+        - there should be a method in your colelction class that returns a new `Iterator<T>` / `ConcreteIteratorClassYouMade`
 - `List`
     - lists maintain order
