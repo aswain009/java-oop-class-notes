@@ -9,9 +9,26 @@
     - its generic, so when you instantiate a collection you have to provide a type
     - collections don't guarantee order
     - if you want to iterate over a collection, you have to create a class that implements `Iterator<T>`
+        - _AND_ the collection class must implement `iterator()` that returns an instance of the `Iterator<T>` class
+            - the requirement for `iterator()` comes from the `Iterable` interface
         - you can then instantiate and use that iterator in your collection class to loop over your collections
         - there should be a method in your colelction class that returns a new `Iterator<T>` / `ConcreteIteratorClassYouMade`
         - if your collection class implements `Iterable` (i.e. it has a method `iterator()` that creates an `Iterator<T>`), then you should be able to use a for-each loop on it
             - `for ([whatever your collection type is] i : collection) { }`
+        - the iterator class can have a `remove()` method
+        ```
+        public void remove() {
+            if (!nextCalled) {
+                throw new IllegalStateException("No prior call to next");
+            }
+            --index;
+            data[index] = data[size - 1];
+            data[size - 1] = null;
+            --size;
+            nextCalled = false;
+        }
+        ```
+        - `nextCalled` is set to true each time `next()` is called because the element at `index` cannot be removed if it hasn't been iterated over using yet
+            - you wouldn't know what you're removing if you don't call `next()` first
 - `List`
     - lists maintain order
