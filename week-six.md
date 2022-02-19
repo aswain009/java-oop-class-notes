@@ -32,3 +32,12 @@
             - you wouldn't know what you're removing if you don't call `next()` first
         - this design, where you have a method (`iterator()`) that returns a new object that can be called on to do a job is the **factory pattern**
             - the facotry class is the concrete class that creates/implements `Iterator<T>`
+
+## type parameters
+A type parameter is essentially a variable that holds a reference to a type instead of a value. Generic classes are classes that take in a type parameter and create an instance of the class that uses that type parameter wherever it is used in the generic class definition. Example, you can create an instance of `SomeConcereteCollection<T>` that holds a collection of `Person` like this: `new SomeConcereteCollection<Person>()`.
+
+## bound type parameter
+The method `binarySearch()` needs to compare the values in the array `arr` in order to perform the search, so the array that gets passed in must be a type that implements `Comparable`. The bound parameter `T extends Comparable` makes sure of this.
+
+## type erasure
+Type erasure happens when the Java compiler replaces generic types with the concrete types implied by the parts of the code that instantiate the generic classes. By the time the JVM gets to runtime, the bytecode has no reference to generic types. Everything has been given concrete types.
