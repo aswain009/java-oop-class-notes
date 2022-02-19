@@ -7,7 +7,7 @@
     - it's an interface that extends `Iterable`
     - various data structures inherit `Collection`
     - its generic, so when you instantiate a collection you have to provide a type
-    - collections don't guarantee order
+    - unlike `Lists`, collections don't guarantee order
     - if you want to iterate over a collection, you have to create a class that implements `Iterator<T>`
         - _AND_ the collection class must implement `iterator()` that returns an instance of the `Iterator<T>` class
             - the requirement for `iterator()` comes from the `Iterable` interface
@@ -30,5 +30,3 @@
         ```
         - `nextCalled` is set to true each time `next()` is called because the element at `index` cannot be removed if it hasn't been iterated over using yet
             - you wouldn't know what you're removing if you don't call `next()` first
-- `List`
-    - lists maintain order
