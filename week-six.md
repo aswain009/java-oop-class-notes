@@ -11,5 +11,7 @@
     - if you want to iterate over a collection, you have to create a class that implements `Iterator<T>`
         - you can then instantiate and use that iterator in your collection class to loop over your collections
         - there should be a method in your colelction class that returns a new `Iterator<T>` / `ConcreteIteratorClassYouMade`
+        - if your collection class implements `Iterable` (i.e. it has a method `iterator()` that creates an `Iterator<T>`), then you should be able to use a for-each loop on it
+            - `for ([whatever your collection type is] i : collection) { }`
 - `List`
     - lists maintain order
