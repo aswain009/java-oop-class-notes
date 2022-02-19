@@ -30,5 +30,5 @@
         ```
         - `nextCalled` is set to true each time `next()` is called because the element at `index` cannot be removed if it hasn't been iterated over using yet
             - you wouldn't know what you're removing if you don't call `next()` first
-        - this design, where you have a method (`iterator()`) that returns a new object that can be called on to do a job is the "factory pattern"
+        - this design, where you have a method (`iterator()`) that returns a new object that can be called on to do a job is the **factory pattern**
             - the facotry class is the concrete class that creates/implements `Iterator<T>`
