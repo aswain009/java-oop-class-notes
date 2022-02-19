@@ -12,7 +12,7 @@
         - _AND_ the collection class must implement `iterator()` that returns an instance of the `Iterator<T>` class
             - the requirement for `iterator()` comes from the `Iterable` interface
         - you can then instantiate and use that iterator in your collection class to loop over your collections
-        - there should be a method in your colelction class that returns a new `Iterator<T>` / `ConcreteIteratorClassYouMade`
+        - there should be a method in your collection class that returns a new `Iterator<T>` / `ConcreteIteratorClassYouMade`
         - if your collection class implements `Iterable` (i.e. it has a method `iterator()` that creates an `Iterator<T>`), then you should be able to use a for-each loop on it
             - `for ([whatever your collection type is] i : collection) { }`
         - the iterator class can have a `remove()` method
@@ -31,7 +31,7 @@
         - `nextCalled` is set to true each time `next()` is called because the element at `index` cannot be removed if it hasn't been iterated over using yet
             - you wouldn't know what you're removing if you don't call `next()` first
         - this design, where you have a method (`iterator()`) that returns a new object that can be called on to do a job is the **factory pattern**
-            - the facotry class is the concrete class that creates/implements `Iterator<T>`
+            - the factory class is the concrete class that creates/implements `Iterator<T>`
 
 ## type parameters
 A type parameter is essentially a variable that holds a reference to a type instead of a value. Generic classes are classes that take in a type parameter and create an instance of the class that uses that type parameter wherever it is used in the generic class definition. Example, you can create an instance of `SomeConcereteCollection<T>` that holds a collection of `Person` like this: `new SomeConcereteCollection<Person>()`.
