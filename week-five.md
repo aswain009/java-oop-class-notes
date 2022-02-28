@@ -1,5 +1,5 @@
 ## Compare and contrast iterative versus sequential software lifecycle approaches.
-- steps in SDLC: requirements analysis, development, testing, production, maintenance
+- steps in SDLC: requirements analysis, design, development, testing, production, maintenance
 - waterfall model
     - phases
         - requirements analysis: what should the product do?
