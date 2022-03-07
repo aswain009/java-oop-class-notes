@@ -9,6 +9,10 @@
     - have size limits
     - can be equal to each other even if the order of the elements is different
     - `Collection<T>` extends `Iterable<T>`
+- `ListIterator<T>`
+    - extends `Iterator<T>`
+    - adds `hasPrevious()`, `next/previousIndex()`, etc.
+    - can be initialized at specific indexes
 
 ## Extend the AbstractCollection implementation into AbstractList and ArrayList implementations and justify design decisions.
 
