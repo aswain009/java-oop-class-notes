@@ -14,7 +14,7 @@
     - adds `hasPrevious()`, `next/previousIndex()`, etc.
     - can be initialized at specific indexes
 
-## autoboxing
+## autoboxing (boxing/unboxing)
 - this is when Java automatically converts primitive types into their `Object`/wrapper types
 - example where this would be needed: when adding an `int` to an `ArrayList<Integer>`
 - primitive -> object is "boxing"
