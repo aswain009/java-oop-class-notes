@@ -14,6 +14,12 @@
     - adds `hasPrevious()`, `next/previousIndex()`, etc.
     - can be initialized at specific indexes
 
+## autoboxing
+- this is when Java automatically converts primitive types into their `Object`/wrapper types
+- example where this would be needed: when adding an `int` to an `ArrayList<Integer>`
+- primitive -> object is "boxing"
+- object -> primitive is "unboxing"
+
 ## Extend the AbstractCollection implementation into AbstractList and ArrayList implementations and justify design decisions.
 
 
