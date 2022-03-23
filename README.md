@@ -11,3 +11,7 @@
 [WEEK FIVE](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-five.md)
 
 [WEEK SIX](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-six.md)
+
+[WEEK SEVEN](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-seven.md)
+
+[WEEK NINE](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-nine.md)
