@@ -7,3 +7,4 @@
     - instances of this concrete class can make the instance in the decorator class _immutable_
     - IF you `@Override` all the methods that modify the decoratee
     - this way you can safely make an instance of the concrete decorator that has an imutable [insert interface name here]
+- any subclasses the interface requires must also be decorated, both in the decorator class and any concrete classes that extend the decorator
