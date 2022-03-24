@@ -13,7 +13,7 @@
 - `CollectionDecorator`
     - the decorator class itself
     - implements `Collection`
-    - has an instance of `Collection`
+    - has an instance of `Collection` called `decoratee`
     - also has a subclass `IteratorDecorator` that implements `Iterator` and has an instance of `Iterator`
 - `UnmodifiableCollection`
     - extends `CollectionDecorator`
