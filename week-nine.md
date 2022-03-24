@@ -1,7 +1,9 @@
 ## decorator pattern
 - a decorator class implements some interface
-    - it _is a_ [insert interface name here]
-- BUT it also _has an_ instance of that interface (well, a concrete subclass of that interface)
-- if you create a concrete implementation of this decorator class (i.e. extends the decorator class)...
-    - instances of this concrete class are _immutable_ instances [insert interface name here]
-    - it makes those isntances readonly
+    - it _is an_ [insert interface name here]
+- BUT it also _has an_ instance of that interface
+- "decoratee" is the instance of the interface that the decorator class has
+- if you extend the decorator class...
+    - instances of this concrete class can make the instance in the decorator class _immutable_
+    - IF you `@Override` all the methods that modify the decoratee
+    - this way you can safely make an instance of the concrete decorator that has an imutable [insert interface name here]
