@@ -8,3 +8,9 @@
     - IF you `@Override` all the methods that modify the decoratee
     - this way you can safely make an instance of the concrete decorator that has an immutable [insert interface name here]
 - any subclasses the interface requires must also be decorated, both in the decorator class and any concrete classes that extend the decorator
+
+## decorator example (from Dr. Whittaker)
+- `CollectionDecorator`
+    - 
+- `UnmodifiableCollection`
+    - 
