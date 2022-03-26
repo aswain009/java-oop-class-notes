@@ -3,10 +3,10 @@
 - they're an array of elements where you can only add to the end and remove from the end
 - examples of real-world stacks include a stack of chairs or plates and PEZ dispensers
 - methods that stacks (should) implement
-    - `bool push(E data)`
-    - `E pop()`
-    - `E peek()`
-    - `bool isEmpty()`
+    - `bool push(E data)` adds `data` to the end of the array
+    - `E pop()` removes and returns the last element in the array
+    - `E peek()` returns the last element in the array without removing it
+    - `bool isEmpty()` tells whether the array has any elements in it (obviously)
 
 ## infix and postfix
 - infix notation
