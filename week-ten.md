@@ -1,5 +1,12 @@
 ## stacks
-
+- stacks are LIFO structures (last in, first out)
+- they're an array of elements where you can only add to the end and remove from the end
+- examples of real-world stacks include a stack of chairs or plates and PEZ dispensers
+- methods that stacks (should) implement
+    - `bool push(E data)`
+    - `E pop()`
+    - `E peek()`
+    - `bool isEmpty()`
 
 ## infix and postfix
 - infix notation
