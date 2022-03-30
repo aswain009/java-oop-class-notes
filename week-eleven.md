@@ -1,8 +1,9 @@
 ## queues
 - queues are FIFO structures (first in, first out)
-- they're an array of elements where you can only add to the end and remove from the begining
+- they're an array of elements where you can only add to the end and remove from the beginning
 - examples of real-world queues include people waiting in a checkout line
 - queues are most often used in scheduling algorithms
+    - particularly in scheduling algorithms that deal with Poisson-distributed events
 - methods that queues (should) implement
     - `bool queue(E data)` adds `data` to the end of the array
     - `E enqueue()` removes and returns the first element in the array
@@ -13,4 +14,4 @@
     - and fast to remove from the beginning
     - because of the head and tail nodes
     - `ArrayLists` are only fast to remove/add to the end (O(1))
-        - any opperation at the beginning of an `ArrayList` will be an O(n) opperation
+        - any operation at the beginning of an `ArrayList` will be an O(n) operation
