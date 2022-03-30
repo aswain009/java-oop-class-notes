@@ -2,6 +2,7 @@
 - queues are FIFO structures (first in, first out)
 - they're an array of elements where you can only add to the end and remove from the begining
 - examples of real-world queues include people waiting in a checkout line
+- queues are most often used in scheduling algorithms
 - methods that queues (should) implement
     - `bool queue(E data)` adds `data` to the end of the array
     - `E enqueue()` removes and returns the first element in the array
