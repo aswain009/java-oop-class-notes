@@ -1,9 +1,15 @@
 ## queues
 - queues are FIFO structures (first in, first out)
-- they're an array of elements where you can only add to the beginning and remove from the end
-- examples of real-world queues
+- they're an array of elements where you can only add to the end and remove from the begining
+- examples of real-world queues include people waiting in a checkout line
 - methods that queues (should) implement
-    - `bool queue(E data)` adds `data` to the beginning of the array
-    - `E enqueue()` removes and returns the last element in the array
-    - `E peek()` returns the last element in the array without removing it
+    - `bool queue(E data)` adds `data` to the end of the array
+    - `E enqueue()` removes and returns the first element in the array
+    - `E peek()` returns the first element in the array without removing it
     - `bool isEmpty()` tells whether the array has any elements in it (obviously)
+- `LinkedLists` are the best structure to use to implement queues
+    - it's fast to add to the end of them
+    - and fast to remove from the beginning
+    - because of the head and tail nodes
+    - `ArrayLists` are only fast to remove/add to the end (O(1))
+        - any opperation at the beginning of an `ArrayList` will be an O(n) opperation
