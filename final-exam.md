@@ -2,7 +2,13 @@
 
 ## essay questions
 - Value of implementing Data Structures and Code reuse. These questions are sort of ‘in your opinion’ questions and what I would be looking for is to use your knowledge of those topics and provide to me a response of a particular question. No coding required for those two questions.
-- Also, there is a bonus question. Hints: know the ‘shunting yard algorithm’, the idea of semaphores, the shortest path algorithm and the structured programming movement.
+- Know...
+    - the ‘Shunting-yard algorithm’
+        - e.g. 3 + 7 * 2 - 8 / (6 - 2)
+        - e.g. 3 7 2 * + 8 6 2 - / -
+    - the idea of semaphores
+    - the shortest path algorithm
+    - the structured programming movement
 
 ## short answer questions
 1) stack Big(O)

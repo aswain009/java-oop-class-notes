@@ -16,7 +16,7 @@
 - postfix notation
     - e.g. 3 7 2 * + 8 6 2 - / -
         - you loop over the expression, left to right
-        - you add each element to a stack (3, then 7, then 2, then *)
+        - you add each element to a stack (3, then 7, then 2)
         - when you reach an operand, you pop the last two numbers off the stack and perform the operation on them
             - pop off 2 and 7 and multiply them
         - then you add the result to the stack
