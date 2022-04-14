@@ -1,8 +1,26 @@
-## final exam topics
+# final exam topics
 
+## essay questions
+- Value of implementing Data Structures and Code reuse. These questions are sort of ‘in your opinion’ questions and what I would be looking for is to use your knowledge of those topics and provide to me a response of a particular question. No coding required for those two questions.
+- Also, there is a bonus question. Hints: know the ‘shunting yard algorithm’, the idea of semaphores, the shortest path algorithm and the structured programming movement.
 
+## short answer questions
+1) stack Big(O)
+2) Queue principles
+3) Adapter design principles
+4) Decorator design pattern principle
+5) ArrayList principles
+6) Lists and Big(O)
+7) LinkedList principles
+8) Know your interfaces and what they do: iterator, iterable, listIterator, Collection, list
 
-## final exam coding problems
+## multiple-choice
+1) ArrayList and LikedList efficiencies - efficiencies for removing, adding , etc
+2) Choose best collection to apply for a given situations: storing payroll calculations, program to track progress in a maze, keeping track of customers in alphabetical order, Driving dispatching system like uber
+
+Basically make sure you know the ins and outs of the following data structures: ArrayList, LinkedList, Queue, or Stack
+
+## coding problems
 
 ### Decorator Pattern coding problem:
 1) Desc: Need to create a system to allow for basic seat reservations and decorations for adding wifi.
