@@ -1,3 +1,9 @@
+## final exam topics
+
+
+
+## final exam coding problems
+
 ### Decorator Pattern coding problem:
 1) Desc: Need to create a system to allow for basic seat reservations and decorations for adding wifi.
 2) You're given a UML diagram where you'll need to implement a few classes.  
@@ -6,8 +12,7 @@
 5) you will be given a 'RunMe.java' file with starter code.
 Go over what the Decorator classes do:
 1) Remember to declare your main object, FightSeat
-2) then just code up your getters and remember to instantiate the constructor
-For the Classes extending the decorator classes
+2) then just code up your getters and remember to instantiate the constructor for the Classes extending the decorator classes
 1) just call the super class (FltSeatDecorator) and do your modifications locally
 
 ### Stacks problem
