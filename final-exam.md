@@ -4,8 +4,8 @@
 - Value of implementing Data Structures and Code reuse. These questions are sort of ‘in your opinion’ questions and what I would be looking for is to use your knowledge of those topics and provide to me a response of a particular question. No coding required for those two questions.
 - Know...
     - the ‘Shunting-yard algorithm’
-        - e.g. 3 + 7 * 2 - 8 / (6 - 2)
-        - e.g. 3 7 2 * + 8 6 2 - / -
+        - infix: 3 + 7 * 2 - 8 / (6 - 2)
+        - postfix: 3 7 2 * + 8 6 2 - / -
     - the idea of semaphores
     - the shortest path algorithm
     - the structured programming movement
