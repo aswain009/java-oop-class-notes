@@ -21,3 +21,5 @@
 [WEEK TEN](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-ten.md)
 
 [WEEK ELEVEN](https://github.com/ruthrootz/java-oop-class-notes/blob/main/week-eleven.md)
+
+[FINAL EXAM](https://github.com/ruthrootz/java-oop-class-notes/blob/main/final-exam.md)
