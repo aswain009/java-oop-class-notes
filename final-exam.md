@@ -35,16 +35,16 @@ Basically make sure you know the ins and outs of the following data structures: 
 
 ## coding problems
 
-### Decorator Pattern coding problem:
+### Decorator Pattern problem
 1) description: Need to create a system to allow for basic seat reservations and decorations for adding wifi.
 2) You're given a UML diagram where you'll need to implement a few classes.  
 3) What you need to do is to look at the UML diagram and simply implement the methods using the decorator method.
 4) You will be given a sample of what your output should look like.
-5) you will be given a 'RunMe.java' file with starter code.
+5) You will be given a 'RunMe.java' file with starter code.
 Go over what the Decorator classes do:
-1) Remember to declare your main object, FightSeat
-2) then just code up your getters and remember to instantiate the constructor for the Classes extending the decorator classes
-1) just call the super class (FltSeatDecorator) and do your modifications locally
+1) Remember to declare your main object, FightSeat.
+2) Then just code up your getters and remember to instantiate the constructor for the classes extending the decorator classes.
+3) Call the super class (FlightSeatDecorator) and do your modifications locally.
 
 ### Stacks problem
 1) description: The given problem is about balancing parentheses, obviously you have to make sure each parentheses has its open and respective closed parentheses.
