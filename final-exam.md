@@ -1,7 +1,7 @@
 # final exam topics
 
 ## essay questions
-- Value of implementing Data Structures and Code reuse. These questions are sort of ‘in your opinion’ questions and what I would be looking for is to use your knowledge of those topics and provide to me a response of a particular question. No coding required for those two questions.
+- Value of implementing data structures and code reuse. These questions are sort of ‘in your opinion’ questions and what I would be looking for is to use your knowledge of those topics and provide to me a response of a particular question. No coding required for those two questions.
     - data structures: These are tried-and-true structures that are implemented in the most efficient way that has been discovered so far! Almost all big modern languages already have implementations of these structures. Most programmers know how to use them, so using them increases code clarity when someone reads the code using these structures. Some problems are uniquely suited to these structures as well. Scheduling tasks, for example, works just like a queue does, making it a perfect problem to use queues for. Using these out-of-the-box implementations also aids with code-reuse...
 - Know...
     - the ‘Shunting-yard algorithm’
@@ -24,7 +24,7 @@
 4) `ArrayList` principles
 5) `LinkedList` principles
 6) Know your interfaces and what they do: `Iterator`, `Iterable`, `ListIterator`, `Collection`, `List`.
-7) Time complexity for `Array`, `List`, `Stack`, `Queue`
+7) Know time complexity for `Array`, `List`, `Stack`, `Queue`.
 ![time complexity](complexity.png)
 
 ## multiple-choice
