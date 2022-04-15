@@ -36,8 +36,8 @@ Basically make sure you know the ins and outs of the following data structures: 
 ## coding problems
 
 ### Decorator Pattern problem
-1) description: Need to create a system to allow for basic seat reservations and decorations for adding wifi.
-2) You're given a UML diagram where you'll need to implement a few classes.  
+1) Description: Need to create a system to allow for basic seat reservations and decorations for adding wifi.
+2) You're given a UML diagram where you'll need to implement a few classes.
 3) What you need to do is to look at the UML diagram and simply implement the methods using the decorator method.
 4) You will be given a sample of what your output should look like.
 5) You will be given a 'RunMe.java' file with starter code.
@@ -47,28 +47,28 @@ Go over what the Decorator classes do:
 3) Call the super class (FlightSeatDecorator) and do your modifications locally.
 
 ### Stacks problem
-1) description: The given problem is about balancing parentheses, obviously you have to make sure each parentheses has its open and respective closed parentheses.
-2) Example: "[{}], {}, ([{}])" are balanced, [{}, {, ({) are NOT
+1) Description: The given problem is about balancing parentheses, obviously you have to make sure each parentheses has its open and respective closed parentheses.
+2) Example: "[{}], {}, ([{}])" are balanced, [{}, {, ({) are NOT.
 3) Using a stack you need to check if a particular string is balanced or not.  Return a true or false.
-4) tips: perhaps a string of opening strings, like {({
-5) have a string of closing strings like })]
-6) What you need to do is to iterate through the tokens
-7) if the tokens are starting strings then push to the stack
-8) if not then see that means it is an ending string so see if that particular string matches the top of the stack
-9) work your way through the rest of the tokens
-10) return false if any of the above steps don't work.
-11) if the stack is empty then you know it's true, so return that
+4) Tips: perhaps a string of opening strings, like {({.
+5) Have a string of closing strings like })].
+6) What you need to do is to iterate through the tokens.
+7) If the tokens are starting strings then push to the stack.
+8) If not then see that means it is an ending string so see if that particular string matches the top of the stack.
+9) Work your way through the rest of the tokens.
+10) Return false if any of the above steps don't work.
+11) If the stack is empty then you know it's true, so return that.
 12) Conclusion: know how stacks work and know your stacks methods: empty(), push(), pop()
 
 ### Queues problem
-1) description: Need to implement a publish/subscribe model (like YouTube, etc.) by implementing two classes .
+1) Description: Need to implement a publish/subscribe model (like YouTube, etc.) by implementing two classes .
 2) Will be given a UML diagram for the methods and variable for each class you need to implement.  There are links to APIs you may need embedded in the specification.
 3) You will be given a Queue object of a particular class will need to do such things as reading and removing oldest notifications (poll), getting number of notifications(size),
 check if two subscribers are equal.
 4) Conclusion: pretty simple problem, know how to use poll and size methods of queue.
 
 ### Lists problem
-1) description: Implement two methods using the List class. Links to the applicable Java API will be available.
+1) Description: Implement two methods using the List class. Links to the applicable Java API will be available.
 2) You will do the following:
 - Reverse a list in place in O(n) time, should not need to create any new lists.
 - Merge two sorted lists in O(n+m) time. Same as what was done in the Polynomial HW. result should be ordered ascending.
