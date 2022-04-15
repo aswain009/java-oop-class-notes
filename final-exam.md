@@ -48,8 +48,8 @@ Go over what the Decorator classes do:
 
 ### Stacks problem
 1) Description: The given problem is about balancing parentheses, obviously you have to make sure each parentheses has its open and respective closed parentheses.
-2) Example: "[{}], {}, ([{}])" are balanced, [{}, {, ({) are NOT.
-3) Using a stack you need to check if a particular string is balanced or not.  Return a true or false.
+2) Example: [{}], {}, ([{}]) are balanced, [{}, {, ({) are NOT.
+3) Using a stack you need to check if a particular string is balanced or not. Return a true or false.
 4) Tips: perhaps a string of opening strings, like {({.
 5) Have a string of closing strings like })].
 6) What you need to do is to iterate through the tokens.
@@ -61,8 +61,8 @@ Go over what the Decorator classes do:
 12) Conclusion: know how stacks work and know your stacks methods: empty(), push(), pop()
 
 ### Queues problem
-1) Description: Need to implement a publish/subscribe model (like YouTube, etc.) by implementing two classes .
-2) Will be given a UML diagram for the methods and variable for each class you need to implement.  There are links to APIs you may need embedded in the specification.
+1) Description: Need to implement a publish/subscribe model (like YouTube, etc.) by implementing two classes.
+2) Will be given a UML diagram for the methods and variable for each class you need to implement. There are links to APIs you may need embedded in the specification.
 3) You will be given a Queue object of a particular class will need to do such things as reading and removing oldest notifications (poll), getting number of notifications(size),
 check if two subscribers are equal.
 4) Conclusion: pretty simple problem, know how to use poll and size methods of queue.
@@ -72,8 +72,8 @@ check if two subscribers are equal.
 2) You will do the following:
 - Reverse a list in place in O(n) time, should not need to create any new lists.
 - Merge two sorted lists in O(n+m) time. Same as what was done in the Polynomial HW. result should be ordered ascending.
-3) Need to know the following interfaces: List and ListIterator methods and understand what they do.  
+3) Need to know the following interfaces: List and ListIterator methods and understand what they do.
 3) So how do you reverse a list?  Possibly have two list iterators from List class and iterate between both lists with one list starting from the end?
-4) How do you merge a list?  May need to do some comparisons.  Again call list iterator from each list.
+4) How do you merge a list?  May need to do some comparisons. Again call list iterator from each list.
 5) How do you declare a ListIterator obj? `ListIterator<E> blah = somelist.listIterator();`
 6) Then manipulate blah to do the merge operation. You're comparing each letter in each list to see if one comes before the other in alphabet and take that one and add to result.
