@@ -18,14 +18,14 @@
         - elements: control structures, subroutines, blocks
 
 ## short answer questions
-1) stack Big(O)
-2) Queue principles
-3) Adapter design principles
-4) Decorator design pattern principle
-5) ArrayList principles
-6) Lists and Big(O)
-7) LinkedList principles
-8) Know your interfaces and what they do: iterator, iterable, listIterator, Collection, list
+1) Queue principles
+2) Adapter design principles
+3) Decorator design pattern principle
+4) ArrayList principles
+5) LinkedList principles
+6) Know your interfaces and what they do: iterator, iterable, listIterator, Collection, list
+7) Time complexity for Array, List, Stack, Queue
+![time complexity](complexity.png)
 
 ## multiple-choice
 1) ArrayList and LikedList efficiencies - efficiencies for removing, adding , etc.
