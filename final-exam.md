@@ -3,11 +3,14 @@
 ## essay questions
 - Value of implementing Data Structures and Code reuse. These questions are sort of ‘in your opinion’ questions and what I would be looking for is to use your knowledge of those topics and provide to me a response of a particular question. No coding required for those two questions.
     - data structures: These are tried-and-true structures that are implemented in the most efficient way that has been discovered so far! Almost all big modern languages already have implementatoins of these structures. Most programmers know how to use them, so using them increases code clarity when someone reads the code usuing these structures. Some problems are uniquely suited to these structures as well. Scheduling tasks, for example, works just like a queue does, making it a perfect problem to use queues for. Using these out-of-the-box implementations also aids with code-reuse...
-    - code reuse: 
 - Know...
     - the ‘Shunting-yard algorithm’
         - infix: 3 + 7 * 2 - 8 / (6 - 2)
         - postfix: 3 7 2 * + 8 6 2 - / -
+        - steps
+            - add each number to the stack, one by one
+            - when you reach an opperator, pop off the two top numbers, perform the opperation, and add the result back to the stack
+            - there should be only one number on the stack at the end, and that's the answer to the problem
     - the idea of semaphores
     - the shortest path algorithm
     - the structured programming movement
