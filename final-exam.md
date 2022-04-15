@@ -14,6 +14,7 @@
     - the idea of semaphores
     - the shortest path algorithm
     - the structured programming movement
+        - make code as modular as possible so that it's clear and easy to modify
 
 ## short answer questions
 1) stack Big(O)
