@@ -28,7 +28,7 @@
 ![time complexity](complexity.png)
 
 ## multiple-choice
-1) ArrayList and LikedList efficiencies - efficiencies for removing, adding , etc.
+1) ArrayList and LikedList efficiencies - efficiencies for removing, adding, etc.
 2) Choose best collection to apply to a given situation: storing payroll calculations, program to track progress in a maze, keeping track of customers in alphabetical order, driving dispatching system like Uber.
 
 Basically make sure you know the ins and outs of the following data structures: ArrayList, LinkedList, Queue, or Stack.
