@@ -58,17 +58,17 @@ Go over what the Decorator classes do:
 9) Work your way through the rest of the tokens.
 10) Return false if any of the above steps don't work.
 11) If the stack is empty then you know it's true, so return that.
-12) Conclusion: know how stacks work and know your stacks methods: empty(), push(), pop()
+12) Conclusion: know how stacks work and know your stacks methods: empty(), push(), pop().
 
 ### Queues problem
 1) Description: Need to implement a publish/subscribe model (like YouTube, etc.) by implementing two classes.
 2) Will be given a UML diagram for the methods and variable for each class you need to implement. There are links to APIs you may need embedded in the specification.
-3) You will be given a Queue object of a particular class will need to do such things as reading and removing oldest notifications (poll), getting number of notifications(size),
+3) You will be given a Queue object of a particular class will need to do such things as reading and removing oldest notifications (poll), getting number of notifications (size),
 check if two subscribers are equal.
 4) Conclusion: pretty simple problem, know how to use poll and size methods of queue.
 
 ### Lists problem
-1) Description: Implement two methods using the List class. Links to the applicable Java API will be available.
+1) Description: Implement two methods using the List class. Links to the applicable Java API docs will be available.
 2) You will do the following:
 - Reverse a list in place in O(n) time, should not need to create any new lists.
 - Merge two sorted lists in O(n+m) time. Same as what was done in the Polynomial HW. result should be ordered ascending.
