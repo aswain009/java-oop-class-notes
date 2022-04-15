@@ -29,17 +29,17 @@
 
 ## multiple-choice
 1) ArrayList and LikedList efficiencies - efficiencies for removing, adding , etc.
-2) Choose best collection to apply for a given situations: storing payroll calculations, program to track progress in a maze, keeping track of customers in alphabetical order, driving dispatching system like Uber.
+2) Choose best collection to apply to a given situation: storing payroll calculations, program to track progress in a maze, keeping track of customers in alphabetical order, driving dispatching system like Uber.
 
 Basically make sure you know the ins and outs of the following data structures: ArrayList, LinkedList, Queue, or Stack.
 
 ## coding problems
 
 ### Decorator Pattern coding problem:
-1) Desc: Need to create a system to allow for basic seat reservations and decorations for adding wifi.
+1) description: Need to create a system to allow for basic seat reservations and decorations for adding wifi.
 2) You're given a UML diagram where you'll need to implement a few classes.  
 3) What you need to do is to look at the UML diagram and simply implement the methods using the decorator method.
-4) You will be given an sample of what your output should look like.
+4) You will be given a sample of what your output should look like.
 5) you will be given a 'RunMe.java' file with starter code.
 Go over what the Decorator classes do:
 1) Remember to declare your main object, FightSeat
@@ -47,7 +47,7 @@ Go over what the Decorator classes do:
 1) just call the super class (FltSeatDecorator) and do your modifications locally
 
 ### Stacks problem
-1) Desc: The given problem is about balancing parentheses, obv you have to make sure each parentheses has it's open and respective closed parentheses.
+1) description: The given problem is about balancing parentheses, obviously you have to make sure each parentheses has its open and respective closed parentheses.
 2) Example: "[{}], {}, ([{}])" are balanced, [{}, {, ({) are NOT
 3) Using a stack you need to check if a particular string is balanced or not.  Return a true or false.
 4) tips: perhaps a string of opening strings, like {({
@@ -61,17 +61,17 @@ Go over what the Decorator classes do:
 12) Conclusion: know how stacks work and know your stacks methods: empty(), push(), pop()
 
 ### Queues problem
-1) Desc - Need to implement a publish/subscribe model (like YouTube, etc) by implementing two classes .
+1) description: Need to implement a publish/subscribe model (like YouTube, etc.) by implementing two classes .
 2) Will be given a UML diagram for the methods and variable for each class you need to implement.  There are links to APIs you may need embedded in the specification.
-3) You will be given a Queue object of a particular class will need to do such things as reading and removing oldest notifications (poll) , getting number of notifications(size),
+3) You will be given a Queue object of a particular class will need to do such things as reading and removing oldest notifications (poll), getting number of notifications(size),
 check if two subscribers are equal.
 4) Conclusion: pretty simple problem, know how to use poll and size methods of queue.
 
 ### Lists problem
-1) Desc:  Implement two methods using the List class. Links to the applicable Java API will be available.
+1) description: Implement two methods using the List class. Links to the applicable Java API will be available.
 2) You will do the following:
 - Reverse a list in place in O(n) time, should not need to create any new lists.
-- Merge two sorted lists in O(n+m) time. same as what was done in the Polynomial HW. result should be ordered ascending.
+- Merge two sorted lists in O(n+m) time. Same as what was done in the Polynomial HW. result should be ordered ascending.
 3) Need to know the following interfaces: List and ListIterator methods and understand what they do.  
 3) So how do you reverse a list?  Possibly have two list iterators from List class and iterate between both lists with one list starting from the end?
 4) How do you merge a list?  May need to do some comparisons.  Again call list iterator from each list.
