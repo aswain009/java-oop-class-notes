@@ -71,9 +71,9 @@ check if two subscribers are equal.
 1) Description: Implement two methods using the List class. Links to the applicable Java API docs will be available.
 2) You will do the following:
 - Reverse a list in place in O(n) time, should not need to create any new lists.
-- Merge two sorted lists in O(n+m) time. Same as what was done in the Polynomial HW. Result should be ordered ascending.
+- Merge two sorted lists in O(n+m) time. Same as what was done in the polynomial homework. Result should be ordered ascending.
 3) Need to know the following interfaces: `List` and `ListIterator` methods and understand what they do.
-3) So how do you reverse a list? Possibly have two list iterators from List class and iterate between both lists with one list starting from the end?
+3) So how do you reverse a list? Possibly have two list iterators from `List` class and iterate between both lists with one iterator starting from the end?
 4) How do you merge a list? May need to do some comparisons. Again call list iterator from each list.
 5) How do you declare a `ListIterator` obj? `ListIterator<E> blah = somelist.listIterator();`
 6) Then manipulate blah to do the merge operation. You're comparing each letter in each list to see if one comes before the other in alphabet and take that one and add to result.
