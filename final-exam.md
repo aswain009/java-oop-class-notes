@@ -42,9 +42,9 @@ Basically make sure you know the ins and outs of the following data structures: 
 4) You will be given a sample of what your output should look like.
 5) You will be given a `RunMe.java` file with starter code.
 Go over what the Decorator classes do:
-1) Remember to declare your main object, FightSeat.
+1) Remember to declare your main object, `FlightSeat`.
 2) Then just code up your getters and remember to instantiate the constructor for the classes extending the decorator classes.
-3) Call the super class (FlightSeatDecorator) and do your modifications locally.
+3) Call the super class (`FlightSeatDecorator`) and do your modifications locally.
 
 ### Stacks problem
 1) Description: The given problem is about balancing parentheses, obviously you have to make sure each parentheses has its open and respective closed parentheses.
@@ -68,7 +68,7 @@ check if two subscribers are equal.
 4) Conclusion: pretty simple problem, know how to use poll and size methods of queue.
 
 ### Lists problem
-1) Description: Implement two methods using the List class. Links to the applicable Java API docs will be available.
+1) Description: Implement two methods using the `List` class. Links to the applicable Java API docs will be available.
 2) You will do the following:
 - Reverse a list in place in O(n) time, should not need to create any new lists.
 - Merge two sorted lists in O(n+m) time. Same as what was done in the polynomial homework. Result should be ordered ascending.
